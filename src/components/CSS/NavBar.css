@@ -1,0 +1,36 @@
+.body{
+    background-color: black;
+}
+.navbar{
+  color: white;
+  background-color: black;
+   position: sticky;
+   top: 0;
+   width: 100%;
+    background-color: rgb(133, 0, 0);
+}
+.title{
+    border-radius: 10px;
+    flex-wrap: wrap;
+    display: inline-block;
+    height: 20px;
+}
+
+.links{
+          display: flex;
+    justify-content: right; 
+    flex-wrap: wrap; 
+}
+
+.link{ 
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 17px 17px;
+    margin: 17px;
+}
+
+Link:hover{
+    border-radius: 5px 10px 5px 10px;
+    background-color: black;
+}
